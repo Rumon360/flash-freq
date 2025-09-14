@@ -576,53 +576,6 @@ function App() {
                         </Card>
                       </div>
 
-                      {/* Numeric Statistics */}
-                      {columnStats.isNumeric && columnStats.numericStats && (
-                        <Card className="bg-gradient-to-r from-indigo-50 to-purple-50 border-indigo-200">
-                          <CardHeader>
-                            <CardTitle className="text-lg text-indigo-700">
-                              Numeric Statistics
-                            </CardTitle>
-                          </CardHeader>
-                          <CardContent>
-                            <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-                              <div className="text-center">
-                                <div className="text-xl font-bold text-indigo-700">
-                                  {columnStats.numericStats.min}
-                                </div>
-                                <div className="text-sm text-indigo-600">
-                                  Minimum
-                                </div>
-                              </div>
-                              <div className="text-center">
-                                <div className="text-xl font-bold text-indigo-700">
-                                  {columnStats.numericStats.max}
-                                </div>
-                                <div className="text-sm text-indigo-600">
-                                  Maximum
-                                </div>
-                              </div>
-                              <div className="text-center">
-                                <div className="text-xl font-bold text-indigo-700">
-                                  {columnStats.numericStats.mean}
-                                </div>
-                                <div className="text-sm text-indigo-600">
-                                  Mean
-                                </div>
-                              </div>
-                              <div className="text-center">
-                                <div className="text-xl font-bold text-indigo-700">
-                                  {columnStats.numericStats.median}
-                                </div>
-                                <div className="text-sm text-indigo-600">
-                                  Median
-                                </div>
-                              </div>
-                            </div>
-                          </CardContent>
-                        </Card>
-                      )}
-
                       {/* Top Values Preview */}
                       <Card>
                         <CardHeader>
